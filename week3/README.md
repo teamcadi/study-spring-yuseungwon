@@ -60,6 +60,8 @@ public class MemoryMemberRepository implements MemberRepository{
 
 memberRepository는 누구한테도 의존하지 않기 때문에 Autowired를 사용할 필요가 없다!
 
+-----------------------------------------------------------------------------
+
 </br></br></br>
 
 - 자바 코드로 직접 등록하기
@@ -110,6 +112,42 @@ public class SpringConfig {
 </br>
 </br>
 </br>
+
+---------------------------------------------
+</br>
+
+## 개념 정리
+
+</br>
+
+- Spring Container  
+
+Spring FrameWork의 핵심으로 Bean을 관리해주는 역할을 한다.  
+Java 코드나 Annotation를 남기면 Container가 Bean 객체를 호출하여 관리한다.
+
+
+</br>
+
+
+- DI(의존성 주입)
+
+예를들어 컨트롤러가 서비스를 통해서 회원가입,데이터 조회를 할수 있기 때문에 의존을 해야 한다. 이를 DI(의존성 주입)라고 한다.
+</br></br>
+장점:  
+
+코드의 재활용성을 줄이고 객체간의 의존성을 없앨 수 있다. 
+</br>
+
+방법:
+
+1.생성자 전달  
+
+2.setter 전달  
+
+3.변수 전달
+
+</br>
+
 
 스프링 컨테이너와 DI에 관한 URL 
 
