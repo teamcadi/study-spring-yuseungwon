@@ -186,3 +186,8 @@ memberList.html
 ```
 
 메모리가 없어지기 때문에 db관리하는 방법을 다음시간에 배우자 !
+
+</br></br>
+
+ThymeLeaf 반복문 처리 방법 !
+https://ifuwanna.tistory.com/200
