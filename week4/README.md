@@ -6,14 +6,19 @@ week 4
 Menu
 
  - [홈 화면 추가](#홈-화면-추가)
- - [회원 등록 1](#등록(Get))
- - [회원 등록-2](#등록(Post))
+ - [회원 등록 1](#회원-등록(Get))
+ - [회원 등록-2](#회원-등록(Post))
  - [회원 조회](#회원-조회)
 
 </br></br>
 
 ## 홈 화면 추가
 
+</br>
+
+![5](https://user-images.githubusercontent.com/40445477/94328895-464eec00-fff1-11ea-988c-0b02e25c31b9.PNG)
+
+</br>
 
 
 HomeController
@@ -51,8 +56,14 @@ home.html
 </html>
 ```
 </br>
+</br>
+</br>
 
-## 등록(Get)
+## 회원 등록(Get)
+
+
+![6](https://user-images.githubusercontent.com/40445477/94328899-5070ea80-fff1-11ea-9887-14bd9f27a675.PNG)
+
 
 - Get Mapping
 
@@ -72,11 +83,19 @@ public class MemberController {  // Spring Container가 관리를 한다.
     }
 }
 ```
-</br>
+</br></br></br></br>
 
-## 등록(Post)
+
+
+
+## 회원 등록(Post)
 
  - Post Mapping
+
+
+
+![3](https://user-images.githubusercontent.com/40445477/94328805-86fa3580-fff0-11ea-95bc-9aafe35b75b6.PNG)
+
 
 ```java
 
@@ -91,7 +110,8 @@ public class MemberController {  // Spring Container가 관리를 한다.
         return "redirect:/"; //홈 화면으로
     }
 ```
-</br></br>
+</br></br></br>
+
 
 - get은 일반 호출 / post는 action해서 데이터(name) 넘겨줌
 
@@ -115,7 +135,16 @@ createMemberForm.html
 </html>
 ```
 
+</br>
+</br>
+</br></br>
+
+
+
 ## 회원 조회
+
+![4](https://user-images.githubusercontent.com/40445477/94328808-89f52600-fff0-11ea-8e43-ca42d34d7d2f.PNG)
+
 
 </br>
 
