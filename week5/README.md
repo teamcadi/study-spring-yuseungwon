@@ -584,14 +584,7 @@ public class SpringConfig {
         this.memberRepository = memberRepository;
     }
 
-    EntityManager em;
-
-
-    @Bean
-    public MemberService memberService(){
-        return new MemberService(memberRepository);
-
-    }
+   
 
 }
 ```
